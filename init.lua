@@ -792,6 +792,9 @@ require('lazy').setup({
       },
     },
   },
+  {
+    'rust-lang/rustvim',
+  },
 
   {
     'tpope/vim-fugitive',
