@@ -1,5 +1,5 @@
-require 'remapkb'
-remapkb()
+-- require 'remapkb'
+-- remapkb()
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
@@ -793,7 +793,7 @@ require('lazy').setup({
     },
   },
   {
-    'rust-lang/rustvim',
+    'rust-lang/rust.vim',
   },
 
   {
